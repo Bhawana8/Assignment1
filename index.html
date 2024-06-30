@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhawana Joshi - home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="holder">
+            <div id="branding">
+                <h1>Bhawana Joshi</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="project.html">Projects</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                     <li><a href="video.html">Video Demo</a></li>
+                     <li><a href="sitereport.html">Site Report</a></li>
+                </ul>
+                <div class="hamburger">&#9776;</div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="holder">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hey, I'm Bhawana Joshi, a Computer Science with a passion for networking and cybersecurity.This portfoilo showcases my projects and skills.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bhawana Joshi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click',function(){
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
