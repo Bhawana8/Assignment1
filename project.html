@@ -1,66 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bhawana Joshi - Projects</title>
-	<link rel="stylesheet" href="style.css">
-	<style>
-		.project-grid{
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-			gap: 20px;
-		}
-		.project-item{
-			background: #f4f4f4;
-			padding: 10px;
-			border: 1px solid #ddd;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header>
-		<div class="holder">
-			<div id="identity">
-				<h1>Bhawana Joshi</h1>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="Project.html">Projects</a></li>
-					<li><a href="Contact.html"> Contact</a></li>
-					<li><a href="videoDemo.html">Video Demo</a></li>
-					<li><a href="sitereport.html">Site Report</a></li>
-				</ul>
-				<div class="nav icon">&#9776;</div>
-			</nav>
-		</div>
-	</header>
-
-	<section>
-		<div class="holder">
-			<h2>Projects</h2>
-			<div class="project-grid">
-				<div class="project-item">Project 1</div>
-				<div class="project-item">Project 2</div>
-				<div class="project-item">Project 3</div>
-				<div class="project-item">Project 4</div>
-				<div class="project-item">Project 5</div>
-				<div class="project-item">Project 6</div>
-			</div>
-		</div>
-	</section>
-
-	<footer>
-		<p>&copy; 2024 Bhawana Joshi. All rights reserved.</p>
-	</footer>
-
-	<script>
-		document.querySelector('.nav icon').addEventListener('click', function() {
-			document.querySelector('nav ul').classlist. navicon('show');
-		});
-	</script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="projects">
+            <h1>My Projects</h1>
+            <div class="grid-container">
+                <div class="grid-item"><alt="Project1"><p>Project 1</p></div>
+                <div class="grid-item"><alt="Project1"><p>Project 2</p></div>
+                <div class="grid-item"><alt="Project1"><p>Project 3</p></div>
+                <div class="grid-item"><alt="Project1"><p>Project 4</p></div>
+                <div class="grid-item"><alt="Project1"><p>Project 5</p></div>
+                <div class="grid-item"><alt="Project1"><p>Project 6</p></div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bhawana Joshi. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
-

@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhawana Joshi - home</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bhawana's portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="holder">
-            <div id="Identity">
-                <h1>Bhawana Joshi</h1>
-            </div>
-            <nav>
+        <nav>
+            <div class="container"> 
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                     <li><a href="project.html">Projects</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                     <li><a href="video.html">Video Demo</a></li>
-                     <li><a href="sitereport.html">Site Report</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="videoDemo.html">Video Demo</a></li>
+                    <li><a href="sitereport.html">Site Report</a></li>
                 </ul>
-                <div class="nav icon">&#9776;</div>
-            </nav>
-        </div>
+            </div>
+        </nav></header>
     </header>
-
-    <section>
-        <div class="holder">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hey, I'm Bhawana Joshi, a computer science student with a passion for networking and cybersecurity.</p>
-        </div>
-    </section>
-
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Hey, I’m Bhawana Joshi </h1>
+                <p>Welcome to my portfolio website</p>
+                <a href="project.html" class="btn">View My Work</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="C:\Users\user\OneDrive\Tài liệu\My Image 2024-07-07 at 00.39.03_1d200a89.jpg"alt="Bhawana Joshi">
+                    <p>I am computer science student with the passion for networking and cyber security.</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Bhawana Joshi. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Bhawana Joshi. All rights reserved.</p>
+        </div>
     </footer>
-
-    <script>
-        document.querySelector('.nav icon').addEventListener('click',function(){
-            document.querySelector('nav ul').classList.navicon('show');
-        });
-    </script>
 </body>
 </html>
